@@ -1,0 +1,9 @@
+To get started, I needed to choose the tools that I was going to use to develop a RISC-V CPU with SystemVerilog.
+
+I wanted this to be on Linux since many tech companies use some version of Linux to run their professional-grade tools. I chose Ubuntu as a quick and easy option.
+
+I then needed to choose how I was going to develop RTL in SystemVerilog. I've used Vivado briefly in the past for this, and have a Xilinx FPGA that I will ultimately be able to test designs on.
+For rapid development though, I decided to just stick to simulation. Vivado would also work for this, but I read online that an option like Verilator could work faster and more reliably.
+Therefore, Verilator would be my simulator of choice. This is used in conjunction with Make and GCC. And GTKWave could then be used as the waveform viewer for the simulation output.
+
+I'll format and link all of this later.
